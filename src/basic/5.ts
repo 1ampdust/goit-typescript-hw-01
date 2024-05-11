@@ -9,7 +9,7 @@ enum DayOfWeek {
 }
 
 
-const isWeekend = (day: DayOfWeek) => {
+const isWeekend = (day: DayOfWeek): boolean => {
  switch (day) {
  case DayOfWeek.Saturday:
  case DayOfWeek.Sunday:
